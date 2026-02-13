@@ -1,0 +1,28 @@
+------------------LINEAR EQN IN TWO VARIABLES------------------
+            (Cramer's Rule using determinants)
+
+STANDERED FORM :    a1x + b1y = c1
+                    a2x + b2y = c2
+
+EQNS :
+    D = (a1*b2) - (a2*b1)
+    dx = ((c1*b2) - (c2*b1)) 
+    dy = ((a1*c2) - (a2*c1)) 
+
+RULES:
+    if D == 0 AND dx == 0 AND dy == 0:
+        DEPENDENT PAIR! INFINITE SOLUTIONS
+    elif D == 0 AND dx, dy != 0:
+        INCONSISTENT PAIR! NO SOLUTION
+    else:
+        x = dx / D
+        y = dy / D
+
+GRAPH :
+    if parallel :
+        DEPENDENT PAIR! INFINITE SOLUTIONS
+    elif coincide :
+        INCONSISTENT PAIR! NO SOLUTION
+    else:
+        CONSISTENT PAIR! UNIQUE SOLUTION
+---------------------------------------------------------------

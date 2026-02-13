@@ -1,0 +1,18 @@
+-----------------------QUADRATIC EQUATION----------------------
+
+STANDERED FORM : ax**2 + bx + c = 0
+
+DISCRIMINANT = b**2 - 4ac
+RULES :
+    if DISCRIMINANT < 0:
+        NO REAL ROOTS
+    if DISCRIMINANT == 0:
+        ONLY ONE ROOT
+    else:
+        TWO ROOTS
+
+FORMULA :
+    x = -b + math.sqrt(DISCRIMINANT) / 2a
+        -b - math.sqrt(DISCRIMINANT) / 2a
+
+---------------------------------------------------------------
