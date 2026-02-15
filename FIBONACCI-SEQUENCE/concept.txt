@@ -1,0 +1,14 @@
+-----------------------FIBONACCI SEQUENCE----------------------
+
+CONCEPT : A MATHEMATICAL SEQUENCE
+
+BASE CASES :
+    F(0) = 0
+    F(1) = 1
+
+FORMULA :
+    F(N) = F(N-1) + F(N-2)
+
+GOLDEN RATIO : 1.618...
+
+---------------------------------------------------------------
