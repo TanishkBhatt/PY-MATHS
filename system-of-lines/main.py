@@ -2,7 +2,6 @@ from numpy import linspace
 import matplotlib.pyplot as plt
 
 def solution(a1: float, b1: float, c1: float, a2: float, b2: float, c2:float) -> tuple[float, float]:
-    """SOLVING LINEAR EQN IN TWO VARIABLES"""
     D = (a1*b2) - (a2*b1)
     dx = ((c1*b2) - (c2*b1)) 
     dy = ((a1*c2) - (a2*c1)) 
@@ -19,7 +18,6 @@ def solution(a1: float, b1: float, c1: float, a2: float, b2: float, c2:float) ->
     return x, y
 
 def plotting(a1: float, b1: float, c1: float, a2: float, b2: float, c2:float) -> None:
-    """PLOTTING LINEAR EQN"""
     x = linspace(-10, 10, 500)
     y1 = (c1 - (a1*x)) / b1
     y2 = (c2 - (a2*x)) / b2

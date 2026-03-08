@@ -1,8 +1,7 @@
 from numpy import linspace
 import matplotlib.pyplot as plt
 
-def plotSlope(m: float, b: float) -> None:
-    """PLOTTING y = mx + b"""
+def plot_slope(m: float, b: float) -> None:
     x = linspace(-10, 10, 500)
     y = m*x + b
 
@@ -16,6 +15,6 @@ def plotSlope(m: float, b: float) -> None:
 
 def main(m: float, b: float) -> None:
     print(f"EQUATION: y = {m}x + {b}")
-    plotSlope(m, b)
+    plot_slope(m, b)
 
 main(2, 3)

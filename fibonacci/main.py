@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 
-def generateFib(n: int) -> list[int]:
+def generate_fib(n: int) -> list[int]:
     seq = [None] * n
     seq[0] = 0
     seq[1] = 1
@@ -10,7 +10,7 @@ def generateFib(n: int) -> list[int]:
 
     return seq
 
-def plotFib(seq: list[int]) -> None:
+def plot_fib(seq: list[int]) -> None:
     x = [i for i in range(len(seq))]
     y = seq
 
@@ -18,18 +18,17 @@ def plotFib(seq: list[int]) -> None:
     plt.title("FIBONACCI SEQUENCE")
     plt.xlabel("X-AXIS")
     plt.ylabel("Y-AXIS")
-
     plt.grid()
     plt.show()
 
 def main(n: int) -> None:
     try:
-        seq = generateFib(n)
+        seq = generate_fib(n)
     except:
         print("AN ERROR OCCURED!")
     else:
         print("FIBONACCI SEQUENCE :")
         print(seq)
-        plotFib(seq)
+        plot_fib(seq)
 
 main(20)
